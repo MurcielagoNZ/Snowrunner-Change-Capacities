@@ -1,7 +1,7 @@
 ﻿# 《雪地奔驰》容量修改工具 SnowRunner Change Capacities Tool
 
 这是一个半自动的小工具，帮助修改《雪地奔驰》的游戏文件。这个小工具可以帮你修改（大多数的）卡车油箱、卡车选装配件（油箱、水箱）、挂车（半挂、全挂，油箱、水箱）容量。
-
+This is a semi-automatic tool that helps modify the game files for "SnowRunner." This tool can help you modify the capacities of (most) truck fuel tanks, truck optional accessories (fuel tanks, water tanks), and trailers (semi-trailers, full trailers, fuel tanks, water tanks).
 
 
 新建一个Visual Studio项目，导入代码，将initial.pak中的[media]文件夹拷贝到项目文件夹中，并且运行（F5）代码。这将修改[media]文件夹下的对应文件，并删除不需要修改的文件。完成后，将[media]文件夹更新到initial.pak中即可。
@@ -40,4 +40,3 @@ As the capacity of containers - especially those transporting fuel - increases, 
 However, some truck models, especially those limited only by fuel tank capacity, could become "perfect" trucks after modification, disrupting the game's balance. Please be aware.
 
 Have fun!
-
