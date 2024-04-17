@@ -11,7 +11,7 @@ FILE *path;
 #define pathLen 512
 #define MaxL 1280 //max string length
 
-int i, count, capa[trucksCount], weight[trucksCount], type[trucksCount];
+int i, count, capas[trucksCount], weights[trucksCount], types[trucksCount];
 char paths[trucksCount][pathLen] = { 0 }, buf[pathLen] = "";
 
 const char names[namesCount][32] =
@@ -103,7 +103,7 @@ int getInfo(char filePath[], int type)
 	return(0);
 }
 
-void findAndChangeData(char filePath[], int type, int newCapa, int newWeight)
+void findAndChangeData(char filePath[], int type, int newCapa, int newweights)
 {
 	FILE *inf, *ouf;
 
@@ -128,6 +128,8 @@ void findAndChangeData(char filePath[], int type, int newCapa, int newWeight)
 		printf("0=0\n");
 		return;
 	}
+	else
+		puts(filePath);
 
 	switch (type)
 	{
@@ -152,7 +154,7 @@ void findAndChangeData(char filePath[], int type, int newCapa, int newWeight)
 			if (6 == x && flag)
 			{
 				flag = 0;
-				replaceNumber(cache, newWeight);
+				replaceNumber(cache, newweights);
 			}
 			fputs(cache, ouf);
 		}
@@ -168,23 +170,23 @@ int main()
 	path = fopen("path.txt", "r");
 
 	count = 0;
-	while (fscanf(path, "%d", &type[count]) != EOF && type[count] != 0)
+	while (fscanf(path, "%d", &types[count]) != EOF && types[count] != 0)
 	{
-		fscanf(path, "%d", &capa[count]);
 		fscanf(path, "%s", paths[count]);
-		if (3 == type[count] || 5 == type[count])
-			fscanf(path, "%d", &weight[count]);
+		fscanf(path, "%d", &capas[count]);
+		if (3 == types[count] || 5 == types[count])
+			fscanf(path, "%d", &weights[count]);
 		count++;
 	}
 	fclose(path);
 
 	for (i = 0; i < count; i++)
-		//getInfo(paths[i], type[i]);
-		findAndChangeData(paths[i], type[i], capa[i], weight[i]);
+		getInfo(paths[i], types[i]);
+		//findAndChangeData(paths[i], types[i], capas[i], weights[i]);
 
-	system("del /s *.bak > nul");
-	printf("All done. Changed %d files.\n", count);
-	system("pause");
+	//system("del /s *.bak > nul");
+	//printf("All done. Changed %d files.\n", count);
+	//system("pause");
 
 	return 0;
 }
