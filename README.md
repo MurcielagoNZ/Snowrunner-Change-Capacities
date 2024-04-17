@@ -19,8 +19,9 @@ path.txt文件内存储的是将要被修改的文件的信息。<br>
 5 - 选装水箱和运水挂车<br>
 <br>
 The "path.txt" file stores information about the files that are to be modified.<br>
-The format is:
-> Type	Relative Path	Capacity	Weight (if needed)
+The format is:<br>
+
+> Type	Relative-Path	Capacity	Weight(if needed)
 <br>
 Data can be conveniently managed in "capacities.xlsx", and copied into "path.txt" when needed.<br>
 Types:<br>
