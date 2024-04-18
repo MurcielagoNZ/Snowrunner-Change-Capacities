@@ -48,7 +48,9 @@ Have fun!
 <br>
 <br>
 
-| type | filePath | fileName | newCapacity | newLiquidWeight | oldCapa | oldLiquidWeight | ------truckName       - | truckType | awd | diffLock | country | price | unlockByRank |
+## 《雪地奔驰》卡车数据 SnowRunner Trucks Data
+
+| type | filePath | fileName | newCapacity | newLiquidWeight | oldCapa | oldLiquidWeight | ....................truckName.................... | truckType | awd | diffLock | country | price | unlockByRank |
 | ---- | ---- | -------- | ------- | --------- | ------- | --------- | ---- | --------- | --- | -------- | ------- | ----- | -------- | 
 | 1 | [media]\_dlc\dlc_1_1\classes\trucks\ford_f750.xml | ford_f750.xml | 265 |  | 140 |  | Ford F 750 (DLC) | Scout | Uninstalled | Always | US,NE | 43600 | -1 |
 | 1 | [media]\_dlc\dlc_1_1\classes\trucks\tuz_16_actaeon.xml | tuz_16_actaeon.xml | 210 |  | 110 |  | TUZ 16 "Actaeon" (DLC) | Offroad | Switchable | Installed | RU,CAS | 54400 | -1 |
@@ -69,8 +71,8 @@ Have fun!
 | 1 | [media]\_dlc\dlc_3\classes\trucks\boar_45318.xml | boar_45318.xml | 1220 |  | 300 |  | BOAR 45318 (DLC) | Heavy | Switchable | Installed | RU,CAS | 155800 | 1 |
 | 1 | [media]\_dlc\dlc_3\classes\trucks\pacific_p512.xml | pacific_p512.xml | 600 |  | 200 |  | Pacific P512 PF (DLC) | Heavy | None | Installed | US,NE | 108300 | -1 |
 | 1 | [media]\_dlc\dlc_3\classes\trucks\paystar_5600ts.xml | paystar_5600ts.xml | 379 |  | 280 |  | International Paystar 5600TS (DLC) | Heavy | Uninstalled | Installed | US,NE | 102600 | -1 |
-| 1 | [media]\_dlc\dlc_4_1\classes\trucks\cat_ct681.xml | cat_ct681.xml | 454 |  | 260 |  | Caterpillar CT681 (DLC) | Heavy Duty | Uninstalled | Installed | US,NE | 59800 | 1 |
-| 1 | [media]\_dlc\dlc_4_1\classes\trucks\international_hx_520.xml | international_hx_520.xml | 454 |  | 280 |  | International HX 520 (DLC) | Heavy Duty | Uninstalled | Installed | US,NE | 151900 | 1 |
+| 1 | [media]\_dlc\dlc_4_1\classes\trucks\cat_ct681.xml | cat_ct681.xml | 454 |  | 260 |  | Caterpillar CT681 (DLC) | Heavy | Uninstalled | Installed | US,NE | 59800 | 1 |
+| 1 | [media]\_dlc\dlc_4_1\classes\trucks\international_hx_520.xml | international_hx_520.xml | 454 |  | 280 |  | International HX 520 (DLC) | Heavy | Uninstalled | Installed | US,NE | 151900 | 1 |
 | 1 | [media]\_dlc\dlc_4\classes\trucks\khan_317_sentinel.xml | khan_317_sentinel.xml | 80 |  | 80 |  | KHAN 317 Sentinel (DLC) | Scout | Switchable | Uninstalled | RU,CAS | 28200 | 1 |
 | 1 | [media]\_dlc\dlc_4\classes\trucks\tatra_805.xml | tatra_805.xml | 190 |  | 190 |  | Tatra 805 (DLC) | Offroad | Switchable | Installed | RU,CAS,NE | 22500 | 1 |
 | 1 | [media]\_dlc\dlc_4\classes\trucks\tatra_t813.xml | tatra_t813.xml | 520 |  | 380 |  | Tatra T813 (DLC) | Heavy | Switchable | Installed | RU,CAS,NE | 177100 | 1 |
@@ -97,16 +99,16 @@ Have fun!
 | 1 | [media]\_dlc\dlc_9\classes\trucks\derry_special_15c177.xml | derry_special_15c177.xml | 587 |  | 380 |  | Derry Special 15C-177 (DLC) | Heavy | Always | Installed | US,NE | 150000 | -1 |
 | 1 | [media]\_dlc\dlc_9\classes\trucks\zikz_566a.xml | zikz_566a.xml | 450 |  | 150 |  | ZiKZ 566A (DLC) | Offroad | Always | Installed | RU,CAS | 80900 | -1 |
 | 1 | [media]\_dlc\dlc_9\classes\trucks\zikz_612h_mastodont.xml | zikz_612h_mastodont.xml | 840 |  | 500 |  | ZiKZ 612H (DLC) | Heavy | Always | Always | RU,CAS | 191300 | 1 |
-| 1 | [media]\_dlc\DLC_trial_6\classes\trucks\gmc_8000.xml | gmc_8000.xml | 663 |  | 285 |  | GMC Brigadier 8000 (DLC) | Heavy Duty | Uninstalled | None | US,NE | 90000 | 1 |
+| 1 | [media]\_dlc\DLC_trial_6\classes\trucks\gmc_8000.xml | gmc_8000.xml | 663 |  | 285 |  | GMC Brigadier 8000 (DLC) | Heavy | Uninstalled | None | US,NE | 90000 | 1 |
 | 1 | [media]\classes\trucks\ank_mk38.xml | ank_mk38.xml | 613 |  | 200 |  | ANK MK38 | Offroad | Always | Always | US,NE | 51100 | -1 |
 | 1 | [media]\classes\trucks\azov_4220_antarctic.xml | azov_4220_antarctic.xml | 700 |  | 340 |  | Azov 42-20 Antarctic | Heavy | Always | Installed | RU,CAS | 111600 | 26 |
 | 1 | [media]\classes\trucks\azov_5319.xml | azov_5319.xml | 700 |  | 200 |  | Azov 5319 | Offroad | Always | Always | RU,CAS | 64600 | 14 |
 | 1 | [media]\classes\trucks\azov_64131.xml | azov_64131.xml | 500 |  | 350 |  | Azov 64131 | Offroad | Always | Always | RU,CAS | 69000 | 1 |
 | 1 | [media]\classes\trucks\azov_73210.xml | azov_73210.xml | 420 |  | 350 |  | Azov 73210 | Heavy | Always | Always | RU,CAS | 66000 | 20 |
 | 1 | [media]\classes\trucks\cat_745c.xml | cat_745c.xml | 550 |  | 340 |  | Caterpillar 745C | Heavy | Switchable | Uninstalled | US,NE | 100500 | -1 |
-| 1 | [media]\classes\trucks\cat_ct680.xml | cat_ct680.xml | 454 |  | 280 |  | Caterpillar CT680 | Heavy Duty | Uninstalled | Installed | US,NE | 37000 | 12 |
+| 1 | [media]\classes\trucks\cat_ct680.xml | cat_ct680.xml | 454 |  | 280 |  | Caterpillar CT680 | Heavy | Uninstalled | Installed | US,NE | 37000 | 12 |
 | 1 | [media]\classes\trucks\chevrolet_ck1500.xml | chevrolet_ck1500.xml | 95 |  | 80 |  | Chevrolet CK1500 | Scout | Switchable | Uninstalled | US,NE | 3000 | 1 |
-| 1 | [media]\classes\trucks\chevrolet_kodiakc70.xml | chevrolet_kodiakc70.xml | 379 |  | 200 |  | Chevrolet Kodiak C70 | Heavy Duty | Uninstalled | Installed | US,NE | 19500 | 1 |
+| 1 | [media]\classes\trucks\chevrolet_kodiakc70.xml | chevrolet_kodiakc70.xml | 379 |  | 200 |  | Chevrolet Kodiak C70 | Heavy | Uninstalled | Installed | US,NE | 19500 | 1 |
 | 1 | [media]\classes\trucks\dan_96320.xml | dan_96320.xml | 800 |  | 350 |  | DAN 96320 | Heavy | Always | Always | RU,CAS | 106800 | -1 |
 | 1 | [media]\classes\trucks\derry_longhorn_3194.xml | derry_longhorn_3194.xml | 757 |  | 370 |  | Derry Longhorn 3194 | Heavy | Always | Always | US,NE | 110700 | -1 |
 | 1 | [media]\classes\trucks\derry_longhorn_4520.xml | derry_longhorn_4520.xml | 974 |  | 400 |  | Derry Longhorn 4520 | Heavy | Switchable | Installed | US,NE | 125500 | 24 |
@@ -116,7 +118,7 @@ Have fun!
 | 1 | [media]\classes\trucks\freightliner_m916a1.xml | freightliner_m916a1.xml | 379 |  | 200 |  | Freightliner M916A1 | Offroad | Switchable | Always | US,NE | 74200 | 17 |
 | 1 | [media]\classes\trucks\gmc_9500.xml | gmc_9500.xml | 756 |  | 240 |  | GMC MH9500 | Highway | Uninstalled | None | US,NE | 10600 | -1 |
 | 1 | [media]\classes\trucks\hummer_h2.xml | hummer_h2.xml | 121 |  | 80 |  | Hummer H2 | Scout | Switchable | Uninstalled | US,NE | 5100 | -1 |
-| 1 | [media]\classes\trucks\international_fleetstar_f2070a.xml | international_fleetstar_f2070a.xml | 379 |  | 240 |  | International Fleetstar F2070A | Heavy Duty | Uninstalled | Installed | US,NE | 13800 | 1 |
+| 1 | [media]\classes\trucks\international_fleetstar_f2070a.xml | international_fleetstar_f2070a.xml | 379 |  | 240 |  | International Fleetstar F2070A | Heavy | Uninstalled | Installed | US,NE | 13800 | 1 |
 | 1 | [media]\classes\trucks\international_loadstar_1700.xml | international_loadstar_1700.xml | 379 |  | 130 |  | International Loadstar 1700 | Scout | Always | Always | US,NE | 28200 | 1 |
 | 1 | [media]\classes\trucks\international_paystar_5070.xml | international_paystar_5070.xml | 240 |  | 240 |  | International Paystar 5070 | Offroad | Switchable | Installed | US,NE | 63400 | 1 |
 | 1 | [media]\classes\trucks\international_scout_800.xml | international_scout_800.xml | 79 |  | 72 |  | International Scout 800 | Scout | Switchable | Always | US,NE | 4800 | -1 |
@@ -136,7 +138,7 @@ Have fun!
 | 1 | [media]\classes\trucks\voron_ae4380.xml | voron_ae4380.xml | 300 |  | 250 |  | Voron AE-4380 | Offroad | Always | Always | RU,CAS | 64900 | 1 |
 | 1 | [media]\classes\trucks\voron_d53233.xml | voron_d53233.xml | 360 |  | 270 |  | Voron D-53233 | Offroad | Always | Always | RU,CAS | 62600 | 1 |
 | 1 | [media]\classes\trucks\voron_grad.xml | voron_grad.xml | 450 |  | 330 |  | Voron Grad | Offroad | Switchable | Installed | RU,CAS | 65700 | 18 |
-| 1 | [media]\classes\trucks\ws_4964_white.xml | ws_4964_white.xml | 568 |  | 300 |  | White Western Star 4964 | Heavy Duty | Uninstalled | Installed | US,NE | 32200 | -1 |
+| 1 | [media]\classes\trucks\ws_4964_white.xml | ws_4964_white.xml | 568 |  | 300 |  | White Western Star 4964 | Heavy | Uninstalled | Installed | US,NE | 32200 | -1 |
 | 1 | [media]\classes\trucks\ws_6900xd_twin.xml | ws_6900xd_twin.xml | 1514 |  | 360 |  | Western Star 6900 TwinSteer | Heavy | Uninstalled | Installed | US,NE | 90300 | 1 |
 | 1 | [media]\classes\trucks\yar_87.xml | yar_87.xml | 110 |  | 110 |  | YAR 87 | Scout | Switchable | Always | RU,CAS | 15100 | 10 |
 | 1 | [media]\classes\trucks\zikz_5368.xml | zikz_5368.xml | 200 |  | 190 |  | ZiKZ 5368 | Offroad | Switchable | Installed | RU,CAS | 17800 | 1 |
