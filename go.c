@@ -7,12 +7,12 @@
 FILE *path;
 
 #define trucksCount 150
-#define namesCount 6
+#define namesCount 6 // 11
 #define pathLen 512
-#define MaxL 1280 //max string length
+#define MaxL 1280 // max string length
 
-int i, count, capas[trucksCount], weights[trucksCount], types[trucksCount];
-char paths[trucksCount][pathLen] = { 0 }, buf[pathLen] = "";
+int i, count, findType, capas[trucksCount], weights[trucksCount], types[trucksCount];
+char paths[trucksCount][pathLen] = { 0 };
 
 const char names[namesCount][32] =
 {
@@ -21,7 +21,12 @@ const char names[namesCount][32] =
 	"<TruckData FuelCapacity=",
 	"<FuelMass>",
 	"<WaterMass>",
-	"<Body Mass="
+	"<Body Mass="//,
+	//"DiffLockType=",
+	//"Country=",
+	//"Price=",
+	//"UnlockByExploration=",
+	//"UnlockByRank="
 };
 
 void replaceNumber(char dst[], int newValue)
@@ -35,7 +40,7 @@ void replaceNumber(char dst[], int newValue)
 	strcat(x + strlen(num), strchr(tail, '\"'));
 }
 
-int findStr(char src[], int searchType)
+int findStr(char src[], int searchType) // type: 0 - short; 1 - full
 {
 	int len = strlen(src), i;
 	if (!len) return(0);
@@ -80,6 +85,7 @@ int getInfo(char filePath[], int type)
 	while (fgets(cache, sizeof(cache), inf) != NULL)
 	{
 		x = findStr(cache, 1);
+		/*
 		if (1 == type && 1 == x)
 		{
 			printf("%d\t%d\t%s\t%s", type, x, filePath, cache);
@@ -97,6 +103,9 @@ int getInfo(char filePath[], int type)
 		}
 		if (x && x != 6)
 			printf("%d\t%d\t%s\t%s", type, x, filePath, cache);
+		*/
+		if (x == findType)
+			printf("%d\t%d\t%s\t%s", type, x, filePath, cache);
 	}
 
 	fclose(inf);
@@ -111,7 +120,7 @@ void findAndChangeData(char filePath[], int type, int newCapa, int newweights)
 	char bakFile[MaxL] = "", command[MaxL] = "";
 	int flag = 0, x;
 
-	//make backup (read from backup file after so it's necessary)
+	// make backup (read from backup file after so it's necessary)
 	strncpy(bakFile, filePath, strlen(filePath) - 3);
 	strcat(bakFile, "bak");
 	strcat(command, "copy ");
@@ -122,14 +131,15 @@ void findAndChangeData(char filePath[], int type, int newCapa, int newweights)
 	system(command);
 
 	inf = fopen(bakFile, "r");
-	ouf = fopen(filePath, "w");
 	if (NULL == inf)
 	{
-		printf("0=0\n");
+		printf("File not found: ");
+		puts(filePath);
 		return;
 	}
 	else
-		puts(filePath);
+		//puts(filePath);
+		ouf = fopen(filePath, "w");
 
 	switch (type)
 	{
@@ -149,7 +159,7 @@ void findAndChangeData(char filePath[], int type, int newCapa, int newweights)
 			x = findStr(cache, 1);
 			if (4 == x || 5 == x)
 				flag = 1;
-			if (1 == x || 2 == x || 3 == x)
+			if (x >= 1 && x <= 3)
 				replaceNumber(cache, newCapa);
 			if (6 == x && flag)
 			{
@@ -180,13 +190,15 @@ int main()
 	}
 	fclose(path);
 
-	for (i = 0; i < count; i++)
-		getInfo(paths[i], types[i]);
-		//findAndChangeData(paths[i], types[i], capas[i], weights[i]);
+	//scanf("%d", &findType);
 
-	//system("del /s *.bak > nul");
-	//printf("All done. Changed %d files.\n", count);
-	//system("pause");
+	for (i = 0; i < count; i++)
+		//getInfo(paths[i], types[i], findType);
+		findAndChangeData(paths[i], types[i], capas[i], weights[i]);
+
+	system("del /s *.bak > nul");
+	printf("All done. Changed %d files.\n", count);
+	system("pause");
 
 	return 0;
 }
