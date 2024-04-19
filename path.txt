@@ -91,9 +91,9 @@
 2	[media]\_dlc\dlc_10\classes\trucks\addons\frame_addon_maintainer_big_kenworth_963.xml	20000	
 2	[media]\_dlc\dlc_2_1\classes\trucks\addons\cat_770g_tank.xml	20000	
 2	[media]\classes\trucks\addons\cat_745c_fuel_tank.xml	16000	
-2	[media]\classes\trucks\addons\frame_addon_maintainer.xml	14000	
-2	[media]\classes\trucks\addons\frame_addon_maintainer_big.xml	20000	
-2	[media]\classes\trucks\trailers\trailer_addon_maintainer.xml	20000	
+2	[media]\classes\trucks\addons\frame_addon_maintainer.xml	6000	
+2	[media]\classes\trucks\addons\frame_addon_maintainer_big.xml	7000	
+2	[media]\classes\trucks\trailers\trailer_addon_maintainer.xml	8000	
 3	[media]\_dlc\dlc_1_1\classes\trucks\addons\frame_addon_tank_small.xml	2000	1640
 3	[media]\_dlc\dlc_1_2\classes\trucks\addons\frame_addon_tank_small_short.xml	1200	984
 3	[media]\_dlc\dlc_3\classes\trucks\addons\frame_addon_tank_long.xml	16000	13120
