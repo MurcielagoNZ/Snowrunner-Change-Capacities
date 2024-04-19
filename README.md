@@ -147,9 +147,9 @@ Have fun!
 | 2 | [media]\_dlc\dlc_10\classes\trucks\addons\frame_addon_maintainer_big_kenworth_963.xml |  | 20000 |  | 2000 |  |  |  |  |  |  | 6800 | 1 |
 | 2 | [media]\_dlc\dlc_2_1\classes\trucks\addons\cat_770g_tank.xml |  | 20000 |  | 2000 |  |  |  |  |  |  | 8500 | 13 |
 | 2 | [media]\classes\trucks\addons\cat_745c_fuel_tank.xml |  | 16000 |  | 1600 |  |  |  |  |  |  | 8500 | 13 |
-| 2 | [media]\classes\trucks\addons\frame_addon_maintainer.xml |  | 14000 |  | 1400 |  |  |  |  |  |  | 5300 | 1 |
-| 2 | [media]\classes\trucks\addons\frame_addon_maintainer_big.xml |  | 20000 |  | 2000 |  |  |  |  |  |  | 6800 | 1 |
-| 2 | [media]\classes\trucks\trailers\trailer_addon_maintainer.xml |  | 20000 |  | 2000 |  |  |  |  |  |  | 7500 | 1 |
+| 2 | [media]\classes\trucks\addons\frame_addon_maintainer.xml |  | 6000 |  | 1400 |  |  |  |  |  |  | 5300 | 1 |
+| 2 | [media]\classes\trucks\addons\frame_addon_maintainer_big.xml |  | 7000 |  | 2000 |  |  |  |  |  |  | 6800 | 1 |
+| 2 | [media]\classes\trucks\trailers\trailer_addon_maintainer.xml |  | 8000 |  | 2000 |  |  |  |  |  |  | 7500 | 1 |
 | 3 | [media]\_dlc\dlc_1_1\classes\trucks\addons\frame_addon_tank_small.xml |  | 2000 | 1640 | 900 | 4000 |  |  |  |  |  | 4200 | 4 |
 | 3 | [media]\_dlc\dlc_1_2\classes\trucks\addons\frame_addon_tank_small_short.xml |  | 1200 | 984 | 600 | 3000 |  |  |  |  |  | 4200 | 4 |
 | 3 | [media]\_dlc\dlc_3\classes\trucks\addons\frame_addon_tank_long.xml |  | 16000 | 13120 | 2800 | 18000 |  |  |  |  |  | 6600 | 10 |
