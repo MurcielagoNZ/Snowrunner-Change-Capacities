@@ -8,28 +8,30 @@ Copy the [media] folder in the initial.pak to the project folder, and run (F5) t
 <br>
 path.txt文件内存储的是将要被修改的文件的信息。<br>
 其格式为：<br>
-> 类型	相对路径	容量	重量（如果需要）
+> 类型	相对路径	容量	重量或维修点数（如果需要）
 <br>
 可以在capacities.xlsx中方便地管理数据，并且在需要的时候拷贝到path.txt中。<br>
 类型：<br>
-1 - 卡车自带油箱<br>
-2 - 维护装置和没有“重量”参数的选装油箱<br>
-3 - 有“重量”参数的选装油箱和燃油挂车<br>
+1 - 卡车自带油箱和没有“重量”参数的选装油箱<br>
+2 - 有“重量”参数的选装油箱和燃油挂车<br>
+3 - 选装水箱和运水挂车<br>
 4 - 空<br>
-5 - 选装水箱和运水挂车<br>
+5 - 维护装置<br>
+6 - 维修装置<br>
 <br>
 The "path.txt" file stores information about the files that are to be modified.<br>
 The format is:<br>
 
-> Type	Relative-Path	Capacity	Weight(if needed)
+> Type	Relative-Path	Capacity	Weight/Repair-Points(if needed)
 <br>
 Data can be conveniently managed in "capacities.xlsx", and copied into "path.txt" when needed.<br>
 Types:<br>
-1 - Truck's own fuel tank<br>
-2 - Maintenance devices and add-on fuel tanks without a "weight" parameter<br>
-3 - Add-on fuel tanks and fuel trailers with a "weight" parameter<br>
+1 - Truck's own fuel tank and add-on fuel tanks without a "weight" parameter<br>
+2 - Add-on fuel tanks and fuel trailers with a "weight" parameter<br>
+3 - Add-on water tanks and water trailers<br>
 4 - Empty<br>
-5 - Add-on water tanks and water trailers<br>
+5 - Maintenance devices<br>
+6 - Repair devices<br>
 <br>
 
 * 车辆的油箱数据尽量基于原型车款调整。个别车辆的数据可能和实际有出入。<br>
