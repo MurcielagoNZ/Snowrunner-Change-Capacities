@@ -7,11 +7,11 @@
 FILE *path;
 
 #define trucksCount 150
-#define namesCount 6 // 11
+#define namesCount 7
 #define pathLen 512
 #define MaxL 1280 // max string length
 
-int i, count, findType, capas[trucksCount], weights[trucksCount], types[trucksCount];
+int i, count, findType, val[2][trucksCount], types[trucksCount];
 char paths[trucksCount][pathLen] = { 0 };
 
 const char names[namesCount][32] =
@@ -21,7 +21,8 @@ const char names[namesCount][32] =
 	"<TruckData FuelCapacity=",
 	"<FuelMass>",
 	"<WaterMass>",
-	"<Body Mass="//,
+	"<Body Mass=",
+	"RepairsCapacity="//,
 	//"DiffLockType=",
 	//"Country=",
 	//"Price=",
@@ -112,7 +113,7 @@ int getInfo(char filePath[], int type)
 	return(0);
 }
 
-void findAndChangeData(char filePath[], int type, int newCapa, int newweights)
+void findAndChangeData(char filePath[], int type, int newVal1, int newVal2)
 {
 	FILE *inf, *ouf;
 
@@ -138,37 +139,38 @@ void findAndChangeData(char filePath[], int type, int newCapa, int newweights)
 		return;
 	}
 	else
-		//puts(filePath);
-		ouf = fopen(filePath, "w");
-
-	switch (type)
 	{
-	case 1:
-	case 2:
-		while (fgets(cache, sizeof(cache), inf) != NULL)
+		printf("Working: ");
+		puts(filePath);
+		ouf = fopen(filePath, "w");
+	}
+
+	while (fgets(cache, sizeof(cache), inf) != NULL)
+	{
+		x = findStr(cache, 1);
+		if (x && x != 6)
 		{
-			if (findStr(cache, 0))
-				replaceNumber(cache, newCapa);
-			fputs(cache, ouf);
-		}
-		break;
-	case 3:
-	case 5:
-		while (fgets(cache, sizeof(cache), inf) != NULL)
-		{
-			x = findStr(cache, 1);
 			if (4 == x || 5 == x)
-				flag = 1;
-			if (x >= 1 && x <= 3)
-				replaceNumber(cache, newCapa);
-			if (6 == x && flag)
 			{
-				flag = 0;
-				replaceNumber(cache, newweights);
+				fputs(cache, ouf);
+				fgets(cache, sizeof(cache), inf);
 			}
-			fputs(cache, ouf);
+
+			printf("Hit: type %d\nstr %d\nval1: %d\nval2: %d\nold str: %s\n", type, x, newVal1, newVal2, cache);
+
+			if (1 <= x && x <= 3)
+				replaceNumber(cache, newVal1);
+			if (4 == x || 5 == x)
+				replaceNumber(cache, newVal2);
+			if (7 == x)
+				if (5 == type)
+					replaceNumber(cache, newVal2);
+				else
+					replaceNumber(cache, newVal1);
+
+			printf("new str: %s\n\n", cache);
 		}
-		break;
+		fputs(cache, ouf);
 	}
 
 	fclose(inf);
@@ -183,9 +185,9 @@ int main()
 	while (fscanf(path, "%d", &types[count]) != EOF && types[count] != 0)
 	{
 		fscanf(path, "%s", paths[count]);
-		fscanf(path, "%d", &capas[count]);
-		if (3 == types[count] || 5 == types[count])
-			fscanf(path, "%d", &weights[count]);
+		fscanf(path, "%d", &val[0][count]);
+		if (2 <= types[count] && types[count] <= 5)
+			fscanf(path, "%d", &val[1][count]);
 		count++;
 	}
 	fclose(path);
@@ -194,7 +196,7 @@ int main()
 
 	for (i = 0; i < count; i++)
 		//getInfo(paths[i], types[i], findType);
-		findAndChangeData(paths[i], types[i], capas[i], weights[i]);
+		findAndChangeData(paths[i], types[i], val[0][i], val[1][i]);
 
 	system("del /s *.bak > nul");
 	printf("All done. Changed %d files.\n", count);

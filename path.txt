@@ -1,113 +1,122 @@
-1	[media]\_dlc\dlc_1_1\classes\trucks\ford_f750.xml	265	
-1	[media]\_dlc\dlc_1_1\classes\trucks\tuz_16_actaeon.xml	210	
-1	[media]\_dlc\dlc_1_2\classes\trucks\chevy_apache.xml	95	
-1	[media]\_dlc\dlc_1_2\classes\trucks\tuz_108_warthog.xml	210	
-1	[media]\_dlc\dlc_10\classes\trucks\kenworth_963.xml	794	
-1	[media]\_dlc\dlc_10\classes\trucks\kenworth_w990.xml	757	
-1	[media]\_dlc\dlc_10\classes\trucks\mack_defense_m917.xml	350	
-1	[media]\_dlc\dlc_11\classes\trucks\burlak_6x6.xml	400	
-1	[media]\_dlc\dlc_11\classes\trucks\neo_falcon_2000.xml	90	
-1	[media]\_dlc\dlc_12_5\classes\trucks\azov_670963n.xml	500	
-1	[media]\_dlc\dlc_12\classes\trucks\femm_37at.xml	600	
-1	[media]\_dlc\dlc_12\classes\trucks\mtb_8106.xml	80	
-1	[media]\_dlc\dlc_2_1\classes\trucks\cat_770g.xml	530	
-1	[media]\_dlc\dlc_2_1\classes\trucks\cat_th357.xml	148	
-1	[media]\_dlc\dlc_2_1\classes\trucks\western_star_49x.xml	454	
-1	[media]\_dlc\dlc_2_2\classes\trucks\krs_58_bandit.xml	500	
-1	[media]\_dlc\dlc_3\classes\trucks\boar_45318.xml	1220	
-1	[media]\_dlc\dlc_3\classes\trucks\pacific_p512.xml	600	
-1	[media]\_dlc\dlc_3\classes\trucks\paystar_5600ts.xml	379	
-1	[media]\_dlc\dlc_4_1\classes\trucks\cat_ct681.xml	454	
-1	[media]\_dlc\dlc_4_1\classes\trucks\international_hx_520.xml	454	
-1	[media]\_dlc\dlc_4\classes\trucks\khan_317_sentinel.xml	80	
-1	[media]\_dlc\dlc_4\classes\trucks\tatra_805.xml	190	
-1	[media]\_dlc\dlc_4\classes\trucks\tatra_t813.xml	520	
-1	[media]\_dlc\dlc_4\classes\trucks\zikz_605r.xml	840	
-1	[media]\_dlc\dlc_5\classes\trucks\jeep_cj7_renegade.xml	76	
-1	[media]\_dlc\dlc_5\classes\trucks\jeep_wrangler.xml	80	
-1	[media]\_dlc\dlc_5\classes\trucks\tatra_force_t815_7.xml	460	
-1	[media]\_dlc\dlc_5\classes\trucks\tatra_phoenix.xml	345	
-1	[media]\_dlc\dlc_6\classes\trucks\ank_mk38_ht.xml	613	
-1	[media]\_dlc\dlc_6\classes\trucks\aramatsu_forester.xml	420	
-1	[media]\_dlc\dlc_6\classes\trucks\land_rover_defender_110.xml	80	
-1	[media]\_dlc\dlc_6\classes\trucks\land_rover_defender_90.xml	90	
-1	[media]\_dlc\dlc_6\classes\trucks\step_3364_crocodile.xml	150	
-1	[media]\_dlc\dlc_6\classes\trucks\tayga_6455b.xml	330	
-1	[media]\_dlc\dlc_7\classes\trucks\azov_43_191_sprinter.xml	1000	
-1	[media]\_dlc\dlc_7\classes\trucks\gor_by4.xml	50	
-1	[media]\_dlc\dlc_7\classes\trucks\western_star_57x.xml	1134	
-1	[media]\_dlc\dlc_8\classes\trucks\kirovets_k700.xml	450	
-1	[media]\_dlc\dlc_8\classes\trucks\kirovets_k7m.xml	800	
-1	[media]\_dlc\dlc_8\classes\trucks\rezvani_hercules_6x6.xml	318	
-1	[media]\_dlc\dlc_8\classes\trucks\step_39331_pike.xml	340	
-1	[media]\_dlc\dlc_8\classes\trucks\western_star_nf1424.xml	1134	
-1	[media]\_dlc\dlc_8\classes\trucks\western_star_nf1430.xml	567	
-1	[media]\_dlc\dlc_9\classes\trucks\derry_special_15c177.xml	587	
-1	[media]\_dlc\dlc_9\classes\trucks\zikz_566a.xml	450	
-1	[media]\_dlc\dlc_9\classes\trucks\zikz_612h_mastodont.xml	840	
-1	[media]\_dlc\DLC_trial_6\classes\trucks\gmc_8000.xml	663	
-1	[media]\classes\trucks\ank_mk38.xml	613	
-1	[media]\classes\trucks\azov_4220_antarctic.xml	700	
-1	[media]\classes\trucks\azov_5319.xml	700	
-1	[media]\classes\trucks\azov_64131.xml	500	
-1	[media]\classes\trucks\azov_73210.xml	420	
-1	[media]\classes\trucks\cat_745c.xml	550	
-1	[media]\classes\trucks\cat_ct680.xml	454	
-1	[media]\classes\trucks\chevrolet_ck1500.xml	95	
-1	[media]\classes\trucks\chevrolet_kodiakc70.xml	379	
-1	[media]\classes\trucks\dan_96320.xml	800	
-1	[media]\classes\trucks\derry_longhorn_3194.xml	757	
-1	[media]\classes\trucks\derry_longhorn_4520.xml	974	
-1	[media]\classes\trucks\don_71.xml	42	
-1	[media]\classes\trucks\ford_clt9000.xml	1135	
-1	[media]\classes\trucks\freightliner_114sd.xml	454	
-1	[media]\classes\trucks\freightliner_m916a1.xml	379	
-1	[media]\classes\trucks\gmc_9500.xml	756	
-1	[media]\classes\trucks\hummer_h2.xml	121	
-1	[media]\classes\trucks\international_fleetstar_f2070a.xml	379	
-1	[media]\classes\trucks\international_loadstar_1700.xml	379	
-1	[media]\classes\trucks\international_paystar_5070.xml	240	
-1	[media]\classes\trucks\international_scout_800.xml	79	
-1	[media]\classes\trucks\international_transtar_4070a.xml	454	
-1	[media]\classes\trucks\khan_39_marshall.xml	78	
-1	[media]\classes\trucks\khan_lo4f.xml	80	
-1	[media]\classes\trucks\kolob_74760.xml	1590	
-1	[media]\classes\trucks\kolob_74941.xml	1210	
-1	[media]\classes\trucks\navistar_5000mv.xml	530	
-1	[media]\classes\trucks\pacific_p12w.xml	1364	
-1	[media]\classes\trucks\pacific_p16.xml	800	
-1	[media]\classes\trucks\royal_bm17.xml	817	
-1	[media]\classes\trucks\step_310e.xml	650	
-1	[media]\classes\trucks\tayga_6436.xml	500	
-1	[media]\classes\trucks\tuz_166.xml	75	
-1	[media]\classes\trucks\tuz_420_tatarin.xml	300	
-1	[media]\classes\trucks\voron_ae4380.xml	300	
-1	[media]\classes\trucks\voron_d53233.xml	360	
-1	[media]\classes\trucks\voron_grad.xml	450	
-1	[media]\classes\trucks\ws_4964_white.xml	568	
-1	[media]\classes\trucks\ws_6900xd_twin.xml	1514	
-1	[media]\classes\trucks\yar_87.xml	110	
-1	[media]\classes\trucks\zikz_5368.xml	200	
-2	[media]\_dlc\dlc_10\classes\trucks\addons\frame_addon_maintainer_big_kenworth_963.xml	20000	
-2	[media]\_dlc\dlc_2_1\classes\trucks\addons\cat_770g_tank.xml	20000	
-2	[media]\classes\trucks\addons\cat_745c_fuel_tank.xml	16000	
-2	[media]\classes\trucks\addons\frame_addon_maintainer.xml	6000	
-2	[media]\classes\trucks\addons\frame_addon_maintainer_big.xml	7000	
-2	[media]\classes\trucks\trailers\trailer_addon_maintainer.xml	8000	
-3	[media]\_dlc\dlc_1_1\classes\trucks\addons\frame_addon_tank_small.xml	2000	1640
-3	[media]\_dlc\dlc_1_2\classes\trucks\addons\frame_addon_tank_small_short.xml	1200	984
-3	[media]\_dlc\dlc_3\classes\trucks\addons\frame_addon_tank_long.xml	16000	13120
-3	[media]\_dlc\dlc_4\classes\trucks\addons\frame_tank_zikz_605r.xml	18000	14760
-3	[media]\_dlc\dlc_4\classes\trucks\addons\tatra_805_tank.xml	9000	7380
-3	[media]\_dlc\dlc_5\classes\trucks\addons\tatra_frame_addon_tank.xml	15500	12710
-3	[media]\_dlc\dlc_6\classes\trucks\addons\step_3364_crocodile_tank.xml	8000	6560
-3	[media]\_dlc\dlc_9\classes\trucks\zikz_612h_mastodont_tuning\frame_addon_tank_zikz_612h_mastodon.xml	20000	16400
-3	[media]\classes\trucks\addons\frame_addon_tank.xml	18000	14760
-3	[media]\classes\trucks\trailers\scout_trailer_oiltank.xml	900	738
-3	[media]\classes\trucks\trailers\semitrailer_heavy_oiltank.xml	42000	34440
-3	[media]\classes\trucks\trailers\semitrailer_oiltank.xml	36000	29520
-3	[media]\classes\trucks\trailers\trailer_oiltank.xml	20000	16400
-5	[media]\_dlc\dlc_9\classes\trucks\addons\frame_addon_watertank.xml	18000	18000
-5	[media]\_dlc\dlc_9\classes\trucks\trailers\semitrailer_watertank.xml	36000	36000
-5	[media]\_dlc\dlc_9\classes\trucks\trailers\trailer_watertank.xml	20000	20000
-5	[media]\_dlc\dlc_9\classes\trucks\zikz_612h_mastodont_tuning\zikz_612h_mastodont_watertank.xml	25000	25000
+1	[media]\_dlc\dlc_1_1\classes\trucks\ford_f750.xml	265		
+1	[media]\_dlc\dlc_1_1\classes\trucks\tuz_16_actaeon.xml	210		
+1	[media]\_dlc\dlc_1_2\classes\trucks\chevy_apache.xml	95		
+1	[media]\_dlc\dlc_1_2\classes\trucks\tuz_108_warthog.xml	210		
+1	[media]\_dlc\dlc_10\classes\trucks\kenworth_963.xml	794		
+1	[media]\_dlc\dlc_10\classes\trucks\kenworth_w990.xml	757		
+1	[media]\_dlc\dlc_10\classes\trucks\mack_defense_m917.xml	350		
+1	[media]\_dlc\dlc_11\classes\trucks\burlak_6x6.xml	400		
+1	[media]\_dlc\dlc_11\classes\trucks\neo_falcon_2000.xml	90		
+1	[media]\_dlc\dlc_12_5\classes\trucks\azov_670963n.xml	500		
+1	[media]\_dlc\dlc_12\classes\trucks\femm_37at.xml	600		
+1	[media]\_dlc\dlc_12\classes\trucks\mtb_8106.xml	80		
+1	[media]\_dlc\dlc_2_1\classes\trucks\cat_770g.xml	530		
+1	[media]\_dlc\dlc_2_1\classes\trucks\cat_th357.xml	148		
+1	[media]\_dlc\dlc_2_1\classes\trucks\western_star_49x.xml	454		
+1	[media]\_dlc\dlc_2_2\classes\trucks\krs_58_bandit.xml	500		
+1	[media]\_dlc\dlc_3\classes\trucks\boar_45318.xml	1220		
+1	[media]\_dlc\dlc_3\classes\trucks\pacific_p512.xml	600		
+1	[media]\_dlc\dlc_3\classes\trucks\paystar_5600ts.xml	379		
+1	[media]\_dlc\dlc_4_1\classes\trucks\cat_ct681.xml	454		
+1	[media]\_dlc\dlc_4_1\classes\trucks\international_hx_520.xml	454		
+1	[media]\_dlc\dlc_4\classes\trucks\khan_317_sentinel.xml	80		
+1	[media]\_dlc\dlc_4\classes\trucks\tatra_805.xml	190		
+1	[media]\_dlc\dlc_4\classes\trucks\tatra_t813.xml	520		
+1	[media]\_dlc\dlc_4\classes\trucks\zikz_605r.xml	840		
+1	[media]\_dlc\dlc_5\classes\trucks\jeep_cj7_renegade.xml	76		
+1	[media]\_dlc\dlc_5\classes\trucks\jeep_wrangler.xml	80		
+1	[media]\_dlc\dlc_5\classes\trucks\tatra_force_t815_7.xml	460		
+1	[media]\_dlc\dlc_5\classes\trucks\tatra_phoenix.xml	345		
+1	[media]\_dlc\dlc_6\classes\trucks\ank_mk38_ht.xml	613		
+1	[media]\_dlc\dlc_6\classes\trucks\aramatsu_forester.xml	420		
+1	[media]\_dlc\dlc_6\classes\trucks\land_rover_defender_110.xml	80		
+1	[media]\_dlc\dlc_6\classes\trucks\land_rover_defender_90.xml	90		
+1	[media]\_dlc\dlc_6\classes\trucks\step_3364_crocodile.xml	150		
+1	[media]\_dlc\dlc_6\classes\trucks\tayga_6455b.xml	330		
+1	[media]\_dlc\dlc_7\classes\trucks\azov_43_191_sprinter.xml	420		
+1	[media]\_dlc\dlc_7\classes\trucks\gor_by4.xml	50		
+1	[media]\_dlc\dlc_7\classes\trucks\western_star_57x.xml	1134		
+1	[media]\_dlc\dlc_8\classes\trucks\kirovets_k700.xml	450		
+1	[media]\_dlc\dlc_8\classes\trucks\kirovets_k7m.xml	800		
+1	[media]\_dlc\dlc_8\classes\trucks\rezvani_hercules_6x6.xml	318		
+1	[media]\_dlc\dlc_8\classes\trucks\step_39331_pike.xml	340		
+1	[media]\_dlc\dlc_8\classes\trucks\western_star_nf1424.xml	1134		
+1	[media]\_dlc\dlc_8\classes\trucks\western_star_nf1430.xml	567		
+1	[media]\_dlc\dlc_9\classes\trucks\derry_special_15c177.xml	587		
+1	[media]\_dlc\dlc_9\classes\trucks\zikz_566a.xml	450		
+1	[media]\_dlc\dlc_9\classes\trucks\zikz_612h_mastodont.xml	840		
+1	[media]\_dlc\DLC_trial_6\classes\trucks\gmc_8000.xml	663		
+1	[media]\classes\trucks\ank_mk38.xml	613		
+1	[media]\classes\trucks\azov_4220_antarctic.xml	700		
+1	[media]\classes\trucks\azov_5319.xml	700		
+1	[media]\classes\trucks\azov_64131.xml	500		
+1	[media]\classes\trucks\azov_73210.xml	420		
+1	[media]\classes\trucks\cat_745c.xml	550		
+1	[media]\classes\trucks\cat_ct680.xml	454		
+1	[media]\classes\trucks\chevrolet_ck1500.xml	95		
+1	[media]\classes\trucks\chevrolet_kodiakc70.xml	379		
+1	[media]\classes\trucks\dan_96320.xml	800		
+1	[media]\classes\trucks\derry_longhorn_3194.xml	757		
+1	[media]\classes\trucks\derry_longhorn_4520.xml	974		
+1	[media]\classes\trucks\don_71.xml	42		
+1	[media]\classes\trucks\ford_clt9000.xml	1135		
+1	[media]\classes\trucks\freightliner_114sd.xml	454		
+1	[media]\classes\trucks\freightliner_m916a1.xml	379		
+1	[media]\classes\trucks\gmc_9500.xml	756		
+1	[media]\classes\trucks\hummer_h2.xml	121		
+1	[media]\classes\trucks\international_fleetstar_f2070a.xml	379		
+1	[media]\classes\trucks\international_loadstar_1700.xml	379		
+1	[media]\classes\trucks\international_paystar_5070.xml	240		
+1	[media]\classes\trucks\international_scout_800.xml	79		
+1	[media]\classes\trucks\international_transtar_4070a.xml	454		
+1	[media]\classes\trucks\khan_39_marshall.xml	78		
+1	[media]\classes\trucks\khan_lo4f.xml	80		
+1	[media]\classes\trucks\kolob_74760.xml	1590		
+1	[media]\classes\trucks\kolob_74941.xml	1210		
+1	[media]\classes\trucks\navistar_5000mv.xml	530		
+1	[media]\classes\trucks\pacific_p12w.xml	1364		
+1	[media]\classes\trucks\pacific_p16.xml	800		
+1	[media]\classes\trucks\royal_bm17.xml	817		
+1	[media]\classes\trucks\step_310e.xml	650		
+1	[media]\classes\trucks\tayga_6436.xml	500		
+1	[media]\classes\trucks\tuz_166.xml	75		
+1	[media]\classes\trucks\tuz_420_tatarin.xml	300		
+1	[media]\classes\trucks\voron_ae4380.xml	300		
+1	[media]\classes\trucks\voron_d53233.xml	360		
+1	[media]\classes\trucks\voron_grad.xml	450		
+1	[media]\classes\trucks\ws_4964_white.xml	568		
+1	[media]\classes\trucks\ws_6900xd_twin.xml	1514		
+1	[media]\classes\trucks\yar_87.xml	110		
+1	[media]\classes\trucks\zikz_5368.xml	200		
+1	[media]\_dlc\dlc_2_1\classes\trucks\addons\cat_770g_tank.xml	20000		
+1	[media]\classes\trucks\addons\cat_745c_fuel_tank.xml	16000		
+2	[media]\_dlc\dlc_1_1\classes\trucks\addons\frame_addon_tank_small.xml	2000	1640	
+2	[media]\_dlc\dlc_1_2\classes\trucks\addons\frame_addon_tank_small_short.xml	1200	984	
+2	[media]\_dlc\dlc_3\classes\trucks\addons\frame_addon_tank_long.xml	16000	13120	
+2	[media]\_dlc\dlc_4\classes\trucks\addons\frame_tank_zikz_605r.xml	18000	14760	
+2	[media]\_dlc\dlc_4\classes\trucks\addons\tatra_805_tank.xml	9000	7380	
+2	[media]\_dlc\dlc_5\classes\trucks\addons\tatra_frame_addon_tank.xml	15500	12710	
+2	[media]\_dlc\dlc_6\classes\trucks\addons\step_3364_crocodile_tank.xml	8000	6560	
+2	[media]\_dlc\dlc_9\classes\trucks\zikz_612h_mastodont_tuning\frame_addon_tank_zikz_612h_mastodon.xml	20000	16400	
+2	[media]\classes\trucks\addons\frame_addon_tank.xml	18000	14760	
+2	[media]\classes\trucks\trailers\scout_trailer_oiltank.xml	900	738	
+2	[media]\classes\trucks\trailers\semitrailer_heavy_oiltank.xml	42000	34440	
+2	[media]\classes\trucks\trailers\semitrailer_oiltank.xml	36000	29520	
+2	[media]\classes\trucks\trailers\trailer_oiltank.xml	20000	16400	
+3	[media]\_dlc\dlc_9\classes\trucks\addons\frame_addon_watertank.xml	18000	18000	
+3	[media]\_dlc\dlc_9\classes\trucks\trailers\semitrailer_watertank.xml	36000	36000	
+3	[media]\_dlc\dlc_9\classes\trucks\trailers\trailer_watertank.xml	20000	20000	
+3	[media]\_dlc\dlc_9\classes\trucks\zikz_612h_mastodont_tuning\zikz_612h_mastodont_watertank.xml	22000	22000	
+5	[media]\_dlc\dlc_10\classes\trucks\addons\frame_addon_maintainer_big_kenworth_963.xml	7200		700
+5	[media]\classes\trucks\addons\frame_addon_maintainer.xml	6000		600
+5	[media]\classes\trucks\addons\frame_addon_maintainer_big.xml	7000		700
+5	[media]\classes\trucks\trailers\trailer_addon_maintainer.xml	8000		700
+6	[media]\_dlc\dlc_4\classes\trucks\addons\frame_kung_zikz_605r.xml			1600
+6	[media]\_dlc\dlc_4\classes\trucks\addons\tatra_805_kung.xml			1000
+6	[media]\_dlc\dlc_6\classes\trucks\addons\step_3364_crocodile_kung.xml			1000
+6	[media]\_dlc\dlc_8\classes\trucks\addons\kirovets_k700_kung.xml			1600
+6	[media]\_dlc\dlc_8\classes\trucks\addons\kirovets_k7m_kung.xml			1200
+6	[media]\_dlc\dlc_9\classes\trucks\zikz_612h_mastodont_tuning\frame_addon_kung_zikz_612h_mastodont.xml			1600
+6	[media]\classes\trucks\addons\frame_addon_kung.xml			1600
+6	[media]\classes\trucks\addons\international_loadstar_1700_service_body.xml			800
+6	[media]\classes\trucks\trailers\trailer_service_2.xml			3000
