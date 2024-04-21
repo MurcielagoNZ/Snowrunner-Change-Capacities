@@ -3,8 +3,8 @@
 <br>这是一个半自动的小工具，帮助修改《雪地奔驰》的游戏文件。这个小工具可以帮你修改（大多数的）卡车油箱、卡车选装配件（油箱、水箱）、挂车（半挂、全挂，油箱、水箱）容量。</br>
 This is a semi-automatic tool that helps modify the game files for "SnowRunner." This tool can help you modify the capacities of (most) truck fuel tanks, truck optional accessories (fuel tanks, water tanks), and trailers (semi-trailers, full trailers, fuel tanks, water tanks).<br>
 <br>
-将initial.pak中的[media]文件夹拷贝到项目文件夹中，并且运行（F5）代码，或者将编译好的程序和解压出来的[media]文件夹放在同一目录下运行。这将修改[media]文件夹下的对应文件。完成后，将[media]文件夹更新到initial.pak中即可。<br>
-Copy the [media] folder in the initial.pak to the project folder, and run (F5) the code. Or just use the exe, put the exe and unziped [media] folder into same directory. It will modify the corresponding files under the [media] folder. After completion, update the [media] folder to initial.pak.<br>
+将initial.pak中的[media]文件夹拷贝到项目文件夹中，并且运行（F5）代码 ~~，或者将编译好的程序和解压出来的[media]文件夹放在同一目录下运行~~。这将修改[media]文件夹下的对应文件。完成后，将[media]文件夹更新到initial.pak中即可。<br>
+Copy the [media] folder in the initial.pak to the project folder, and run (F5) the code. ~~Or just use the exe, put the exe and unziped [media] folder into same directory.~~ It will modify the corresponding files under the [media] folder. After completion, update the [media] folder to initial.pak.<br>
 <br>
 path.txt文件内存储的是将要被修改的文件的信息。<br>
 其格式为：<br>
